@@ -1,3 +1,4 @@
+import PostWithLike from '@/components/cards'
 import LargeWithAppLinksAndSocial from '@/components/footer'
 import WithSubnavigation from '@/components/navbar'
 import WithSpeechBubbles from '@/components/testimonials'
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <WithSubnavigation></WithSubnavigation>
         <WithSpeechBubbles></WithSpeechBubbles>
+        <PostWithLike></PostWithLike>
         <LargeWithAppLinksAndSocial></LargeWithAppLinksAndSocial>
       </main>
     </>
