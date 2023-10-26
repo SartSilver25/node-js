@@ -1,3 +1,6 @@
+import LargeWithAppLinksAndSocial from '@/components/footer'
+import WithSubnavigation from '@/components/navbar'
+import WithSpeechBubbles from '@/components/testimonials'
 import Head from 'next/head'
 
 export default function Home() {
@@ -10,7 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        
+        <WithSubnavigation></WithSubnavigation>
+        <WithSpeechBubbles></WithSpeechBubbles>
+        <LargeWithAppLinksAndSocial></LargeWithAppLinksAndSocial>
       </main>
     </>
   )
