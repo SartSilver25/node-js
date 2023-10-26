@@ -1,3 +1,4 @@
+import ClickMe from '@/components/buttom'
 import PostWithLike from '@/components/cards'
 import LargeWithAppLinksAndSocial from '@/components/footer'
 import WithSubnavigation from '@/components/navbar'
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <WithSubnavigation></WithSubnavigation>
         <WithSpeechBubbles></WithSpeechBubbles>
+        <ClickMe></ClickMe>
         <PostWithLike></PostWithLike>
         <LargeWithAppLinksAndSocial></LargeWithAppLinksAndSocial>
       </main>
